@@ -106,6 +106,10 @@
 
 **为什么重写HashCode要重写Equals**
 
+## Serialize
+
+
+
 ## 反射
 
 **什么是反射？**
@@ -534,6 +538,8 @@ protected final boolean tryRelease(int releases) {
 
 **如何控制某个方法允许并发访问线程的大小？**
 
+readwritelock，或者自己实现一个锁
+
 **什么是自旋锁？**
 
 **什么是互斥锁？**
@@ -542,7 +548,7 @@ protected final boolean tryRelease(int releases) {
 
 ### 线程池、阻塞队列
 
-**Java线程池**？
+**Java线程池？线程池的七大参数详解？**
 
 **基础的线程池有哪几种？使用场景有哪些？**
 
